@@ -6,7 +6,7 @@ import PasswordStrength from './Components/PasswordStrength';
 import CheckBox from './Components/CheckBox';
 
 function App() {
-
+  console.log(process.env)
   const [length, setLength] = useState(4);
   const [checkboxData, setCheckboxData] = useState([{
     title: "Include Uppercase Letters", checked: false
