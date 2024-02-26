@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.App {
+  background-color: #000000c7;
+  width: 30vw;
+  height: 55vh;
+  color: white;
+  padding: 12px;
+
+}
+
+.displayPsassword {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+button {
+  background-color: cadetblue;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+}
+
+.copyBtn {
+  width: 50px;
+  height: 30px;
+  font-size: 10px;
+}
+
+.charLength{
+  display: flex;
+  padding-bottom: 24px;
+  flex-direction: column;
+}
+.charLength span{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+
+}
+.generateBtn{
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.checkboxes{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.checkboxes div{
+  display: flex;
+  gap: 5px;
+  padding-bottom: 24px;
+}
+
+.errorMessage {
+  color: red;
+  padding-bottom: 5px;
+}
