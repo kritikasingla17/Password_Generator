@@ -9,4 +9,4 @@ handlers:
     static_files: build/index.html
     upload: build/index.html
 env_variables:
-  MY_VAR:"Test Variable"
+  MY_VAR: "Test Variable"
