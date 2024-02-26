@@ -33,7 +33,7 @@ function App() {
       setIsCopied(false)
     }, 1000)
   }
-
+  console.log(process.env)
   checkboxData.map(()=>{})
   return (
     <div className="App">
@@ -49,7 +49,7 @@ function App() {
       {/* Char Length and indicator */}
       <div className='charLength'>
         <span >
-          <label>Char Length({process.env.MY_VAR})</label>
+          <label>Char Length({process.env.REACT_APP_MY_VAR})</label>
           <label>{length}</label>
         </span>
 
