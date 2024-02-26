@@ -49,7 +49,7 @@ function App() {
       {/* Char Length and indicator */}
       <div className='charLength'>
         <span >
-          <label>Char Length</label>
+          <label>Char Length({process.env.MY_VAR})</label>
           <label>{length}</label>
         </span>
 
