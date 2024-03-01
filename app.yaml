@@ -1,6 +1,4 @@
 runtime: nodejs20
-env_variables:
-    REACT_APP_MY_VAR: "Test Variable"
 handlers:
   # Serve all static files with url ending with a file extension
     - url: /(.*\..+)$
@@ -10,4 +8,5 @@ handlers:
     - url: /.*
     static_files: build/index.html
     upload: build/index.html
-
+env_variables:
+    REACT_APP_MY_VAR: "Test Variable"
