@@ -36,7 +36,8 @@ function App() {
   console.log(process.env)
   checkboxData.map(()=>{})
   return (
-    <div className="App">
+    <div>Sample Frontend React JS Application</div>
+  {/*<div className="App">
 
 
       {/* Password and Copy */}
@@ -79,7 +80,7 @@ function App() {
 
       {/* GenerateButton */}
       <Button text="Generate Password" onClick={() => generatePassword(length, checkboxData)} className="generateBtn" />
-    </div>
+    </div>*/}
   );
 
 }
