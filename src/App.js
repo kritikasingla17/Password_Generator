@@ -37,50 +37,50 @@ function App() {
   checkboxData.map(()=>{})
   return (
     <div>Sample Frontend React JS Application</div>
-  {/*<div className="App">
+  // <div className="App">
 
 
-      {/* Password and Copy */}
-      <div className='displayPsassword'>
-        <span >{password}</span>
-        <Button text={isCopied ? "Copied" : "Copy"} onClick={onCopyHandler} className="copyBtn" />
-      </div>
+  //     {/* Password and Copy */}
+  //     <div className='displayPsassword'>
+  //       <span >{password}</span>
+  //       <Button text={isCopied ? "Copied" : "Copy"} onClick={onCopyHandler} className="copyBtn" />
+  //     </div>
 
 
-      {/* Char Length and indicator */}
-      <div className='charLength'>
-        <span >
-          <label>Char Length({process.env.REACT_APP_MY_VAR})</label>
-          <label>{length}</label>
-        </span>
+  //     {/* Char Length and indicator */}
+  //     <div className='charLength'>
+  //       <span >
+  //         <label>Char Length({process.env.REACT_APP_MY_VAR})</label>
+  //         <label>{length}</label>
+  //       </span>
 
 
-        <input style={{ width: "100%" }} type='range' min="4" max="20" onChange={(e) => { setLength(e.target.value) }} value={length} />
-      </div>
+  //       <input style={{ width: "100%" }} type='range' min="4" max="20" onChange={(e) => { setLength(e.target.value) }} value={length} />
+  //     </div>
 
 
-      {/* Checkboxes */}
-      <div className='checkboxes'>
-        {checkboxData.map((checkbox, index) => {
-          return (
-            <div key={index}>
-              <CheckBox title={checkbox.title} isChecked={checkbox.checked} onChange={() => { onCheckBoxChanged(index) }} />
-            </div>
-          )
-        })}
-      </div>
+  //     {/* Checkboxes */}
+  //     <div className='checkboxes'>
+  //       {checkboxData.map((checkbox, index) => {
+  //         return (
+  //           <div key={index}>
+  //             <CheckBox title={checkbox.title} isChecked={checkbox.checked} onChange={() => { onCheckBoxChanged(index) }} />
+  //           </div>
+  //         )
+  //       })}
+  //     </div>
 
-      {/* Password Strength */}
+  //     {/* Password Strength */}
 
-      <PasswordStrength password={password} />
+  //     <PasswordStrength password={password} />
 
-      {/* Error */}
-      {error && <div className='errorMessage'>{error}</div>}
+  //     {/* Error */}
+  //     {error && <div className='errorMessage'>{error}</div>}
 
 
-      {/* GenerateButton */}
-      <Button text="Generate Password" onClick={() => generatePassword(length, checkboxData)} className="generateBtn" />
-    </div>*/}
+  //     {/* GenerateButton */}
+  //     <Button text="Generate Password" onClick={() => generatePassword(length, checkboxData)} className="generateBtn" />
+  //   </div>
   );
 
 }
